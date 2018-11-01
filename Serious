@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New bike</title>
+    <link rel="stylesheet" href="../static/index.css"> 
+</head>
+<body>
+    <div id="root">
+        <form action="" class="container_central" method = POST> 
+            <b><label for = "model">Model</label></b>
+            <input type="text" name="model" placeholder="eg.honda"><br>
+            <b><label for = "Daily_fee">Daily Fee (VND)</label></b>
+            <input type="text" name ="Daily_fee" placeholder="100000">
+            <b><label for = "image">Image</label></b>
+            <input type = "text"name ="image"placeholder="e.g. https://hondaxemay.com.vn/xe.jpg"><br>
+            <b><label for ="Year">Year</label></b>
+            <input type = "text"name ="image"placeholder="e.g.2013"><br>
+            <a href="/new_bike">
+                <button onclick="myFunction()">Submit</button>
+                <script>
+                    function myFunction(){
+                        alert("Congratulation")
+                    }
+                </script>
+            </a>
+        </form>
+    </div> 
+</body>
+</html>
